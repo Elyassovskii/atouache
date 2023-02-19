@@ -1,16 +1,25 @@
 /* NavBar */
 
+
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #bf767600;
-  color: #2ab318;
 }
 
-.logo img {
-  max-width: 200px;
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+.logo-container img {
+  max-height: 50px;
+  max-width: 100%;
 }
 
 
