@@ -13,15 +13,22 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
 }
-
 
 .logo-container img {
   max-height: 50px;
   max-width: 100%;
 }
 
+.menu-left, .menu-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-left a, .menu-right a {
+  margin: 0 10px;
+}
 
 ul {
   display: flex;
@@ -36,8 +43,11 @@ li {
 
 a {
   text-decoration: none;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 700;
   color: #000000;
 }
+
 
 /* set the background color to #FFFCF6 */
 body {
