@@ -1,12 +1,14 @@
 /* NavBar */
-
-
-
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  background-color: #ffffff00;
+  
 }
 
 .logo-container {
@@ -52,27 +54,30 @@ a {
 /* set the background color to #FFFCF6 */
 body {
   background-color: #FFFCF6;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-weight: 700;
-    text-align: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
 p {
-    font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 /* Footer */
 #footer {
-  position: absolute;
+  position: sticky;
   bottom: 0;
   width: 100%;
-  height: 6rem;            /* Footer height */
+  height: 6rem; /* Footer height */
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff00;
 }
 
 .social-icon {
